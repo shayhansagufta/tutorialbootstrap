@@ -1,0 +1,17 @@
+container adalah elemen tata letak paling dasar di bootstrap 
+dan diperlukan saat menggunakan sistem grid default. 
+
+container digunakan untuk menampung,melapisi, dan memusatkan konten 
+didalamnya. 
+
+meskipun container dapat disarangkan, 
+sebagian besar tata letak tidak memerlukan container bersarang
+
+Bootstrap hadir dengan tiga container berbeda:
+* .container, container responsif dengan lebar tetap, yang berarti 
+max-width perubahannya di setiap breakpoint.
+
+* .container-fluid untuk wadah lebar penuh, yang mencakup seluruh lebar
+viewport.
+
+

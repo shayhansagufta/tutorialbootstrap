@@ -1,0 +1,57 @@
+
+== System Grid ===
+
+Sistem grid bootstrap dibangun dengan flexbox dan memungkinkan hingga
+12 kolom di seluruh halaman.
+
+sistem grid responsif, dan kolom akan diatur secara otomatis tergantung
+pada ukuran layar
+
+kelas grid:
+
+sistem grid bootstrap memiliki lima kelas:
+
+* .col- (perangkat ekstra kecil - lebar layar kurang dari 576 px )
+
+* .col-sm- (perangkat kecil - lebar layar sama dengan atau lebih besar dari
+	    576 piksel)
+
+* .col-md- (perangkat menengah - lebar layar sama dengan atau lebih besar
+            dari 768 pixel)
+
+* .col-lg- (perangkat besar - lebar layar sama dengan atau lebih besar
+	    dari 992px)
+
+* .col-xl- (perangkat xlarge - lebar layar sama dengan atau lebih besar
+            dari 1200px)
+
+Kelas-kelas di atas dapat digabungkan 
+untuk membuat tata letak yang lebih dinamis dan fleksibel.
+
+struktur dasar dari grid:
+
+<!-- Control the column width, and how they should appear on different devices -->
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+<div class="row">
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+  <div class="col-*-*"></div>
+</div>
+
+<!-- Or let Bootstrap automatically handle the layout -->
+<div class="row">
+  <div class="col"></div>
+  <div class="col"></div>
+  <div class="col"></div>
+</div>
+
+
+Contoh pertama: buat baris ( <div class="row">). 
+Kemudian, tambahkan jumlah kolom yang diinginkan 
+(tag dengan .col-*-*kelas yang sesuai ). 
+Bintang pertama (*) mewakili daya tanggap: sm, md, lg atau xl, 
+sedangkan bintang kedua mewakili angka, 
+yang harus ditambahkan hingga 12 untuk setiap baris.
