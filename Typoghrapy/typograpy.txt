@@ -1,0 +1,89 @@
+
+=== Typoghrapy ===
+
+Headings
+
+All HTML headings, <h1> sampai <h6>
+
+Bootstrap 4 menggunakan default font-size 16px, dan line-height 1.5
+standarnya font-family adalah "helvetica neue", helvetica, arial, 
+sans-serif.
+
+selain itu, semua <p> elemen memiliki margin-top: 0 dan margin-bottom: 1rem
+(16px secara default)
+
+<h1> - <h6>
+bootstrap 4 style HTML headings ( <h1> to <h6> ) dengan font-weight yang
+lebih tebal dan font-size yang ditingkatkan.
+
+Display
+
+display digunakan untuk menonjol lebih dari judul normal (ukuran font
+lebih besar dan bobot font lebih ringan), dan ada empat kelas untuk
+dipilih: .display-1, .display-2, .display-3, .display-4
+
+<small>
+di bootstrap 4 <small> elemen HTML digunakan untuk membuat teks sekunder 
+yang lebih ringan.
+
+<mark>
+bootstrap 4 <mark> elemen HTML dengan warna latar belakang kuning
+dan beberapa padding.
+
+<abbr>
+<abbr> elemen HTML untuk singkatan dan akronim untuk menampilkan versi 
+yang diperluas saat mengarahkan kursor. singkatan memiliki garis bawah
+default dan mendapatkan kursor bantuan untuk memberikan konteks tambahan
+saat mengarahkan kursor dan kepada pengguna teknologi bantu.
+
+tambahkan .initialism ke singkatan untuk ukuran font yang sedikit lebih
+kecil.
+
+<blockquote>
+tambahkan .blockquote kelas ke tag <blockquote> saat mengutip blok konten
+dari sumber lain
+
+<dl>
+bootstrap 4 akan menata <dl> elemen HTML dengan cara berikut:
+
+<code>
+bootstrap 4 akan menata <code> elemen HTML dengan cara Berikut:
+
+<kbd>
+bootstrap 4 akan menata <kbd> elemen HTML dengan cara berikut:
+
+<pre>
+bootstrap 4 akan menata <pre> elemen HTML dengan cara berikut:
+
+class:
+.font-weight-bold [ desc: bold text ] 
+.font-weight-bolder [ desc: bolder text ]
+.font-italic [ desc: italic text ]
+.font-weight-light [ desc: light weight text ]
+.font-weight-lighter [ desc: lighter weight text ]
+.font-weight-normal [ desc: normal text ]
+.lead [ desc: makes a paragraph stand out ]
+.small [ desc: indicates smaller text ( set to 80% of the size of
+the parent )
+.text-left [ desc: indicates left-aligned text ]
+.text-break [ desc: prevents long text from breaking layout ]
+.text-center [ desc: indicates center-aligned text ]
+.text-decoration-none [ desc: removes the underline from a link ]
+.text-right [ desc: indicates right-aligned text ]
+.text-justify [ desc: indicates justified text ]
+.text-monospace [ desc: monospaced text ]
+.text-nowrap [ desc: indicates no wrap text ]
+.text-lowercase [ desc: indicates lowercased text ]
+.text-uppercase [ desc: indicates uppercased text ]
+.text-capitalize [ desc: indicates capitalized text ]
+.initialism [ desc: displays the text inside an <abbr> element in a slightly
+smaller font size
+.list-unstyled [ desc: 	Removes the default list-style 
+and left margin on list items 
+(works on both <ul> and <ol>). 
+This class only applies to immediate children 
+list items 
+(to remove the default list-style from any nested lists, 
+apply this class to any nested lists as well)
+.list-inline [desc: Places all list items on a single line 
+(used together with .list-inline-item on each <li> elements)
