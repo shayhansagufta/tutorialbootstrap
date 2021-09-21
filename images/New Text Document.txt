@@ -1,0 +1,30 @@
+
+Bootstrap 4 image shapes
+
+- rounded corners
+- circle
+- thumbnail
+
+* rounded corners
+  .rouned class add rounded corners to an image:
+
+* circle
+   .rounded-circle class shapes the image to circle:
+
+* Thumbnail
+   .img-thumbnail class shapes the image to a thumbnail (bordered):
+
+- Aligning Images
+
+  float an image to the right with the .float-right class or to the left
+  with .float-left
+
+- Centered Image
+  
+  Center an image by adding the utility class .mx-auto (margin:auto) and d.block (display:block) to the image:
+
+- Responsive images
+
+Create responsive images by adding an .img-fluid class to the <img> tag. The image will then scale nicely to the parent element.
+
+The .img-fluid class applies max-width: 100%; and height: auto; to the image:

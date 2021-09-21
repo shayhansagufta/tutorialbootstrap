@@ -1,0 +1,27 @@
+Bootstrap 4 Alerts
+
+alerts are created with .alert class, followed by one of the
+contextual classes
+.alert-success
+.alert-info
+.alert-warning
+.alert-danger
+.alert-primary
+.alert-secondary
+.alert-light
+.alert-dark
+
+alert links
+add the alert-link class to any links inside
+the alert box to creat "matching colored links
+
+<a href="#" class="alert-link">
+
+Closing Alert
+to close alert message, add a .alert-dismissible class to the alert
+container. then add class="close" and data-dismiss="alert" to a link
+or a button element
+
+animated alerts
+the .fade and .show classes adds a fading effect when closing 
+the alert message

@@ -1,0 +1,31 @@
+Bootstrap 4 colors
+
+Text colors
+
+contextual class for text colors (contextual class
+can also be used on links you can also add opacitu
+for black or white text:
+.text-muted
+.text-primary
+.text-success
+.text-info
+.text-warning
+.text-danger
+.text-secondary
+.text-white
+.text dark
+.text-light
+.text-black-50
+.text-white-50
+
+Background Colors
+
+class for background colors:
+.bg-primary
+.bg-success
+.bg-info
+.bg-warning
+.bg-danger
+.bg-secondary
+.bg-dark
+.bg-light

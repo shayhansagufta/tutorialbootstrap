@@ -1,0 +1,17 @@
+
+Bootstrap 4 Jumbotron
+
+jumbotron menunjukkan kotak abu-abu besar untuk meminta perhatian ekstra
+pada beberapa konten atau informasi khusus.
+
+Tip: Didalam Jumbotron anda dapat meletakkan hampir semua HTML yang valid,
+termasuk elemen / kelas bootstrap lainnya.
+
+gunakan <div> elemen dengan kelas .jumbotron untuk membuat jumbotron:
+
+jumbotron-fluid
+
+jika anda menginginkan jumbotron lebar penuh tanpa batas bulat,
+tambahkan .jumbotron-fluid kelas dan .container atau .container-fluid di
+dalamnya.
+

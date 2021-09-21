@@ -1,0 +1,35 @@
+
+Bootstrap 4 Basic Table
+
+A basic bootstrap 4 table has a light padding and horizontal dividers.
+
+.table class adds basic styling to a table
+.table-striped class adds zebra-stripes to a table
+.table-bordered class adds borders on all sides of the table and cells
+.table-hover class adds a hover effect (grey background color) on table
+rows
+.table-dark class adds a black background to the table.
+combine .table-dark and .table-striped to create a dark, striped table
+.table-hover class adds a hover effect on table rows
+.table-borderless clas removes borders from the table
+
+contextual class
+.table-primary Blue: Indicates an important action
+.table-success Green: Indicates a successful or positive action
+.table-danger Red: Indicates a dangerous or potentially negative action
+.table-info Light blue: Indicates a neutral informative change or action
+.table-warning Orange: Indicates a warning that might need attention
+.table-active Grey: Applies the hover color to the table row or table cell
+.table-secondary Grey: Indicates a slightly less important action
+.table-light Light grey table or table row background
+.table-dark Dark grey table or table row background
+
+table head colors
+.thead-dark class adds a black background to table headers, and the
+.thead-light class adds a grey background to table headers
+
+small table
+.table-sm class makes the table smaller by cutting cell padding in half
+
+responsive tables
+.table-responsive class adds a scrollbar to the table when needed
