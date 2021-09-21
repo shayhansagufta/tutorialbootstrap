@@ -1,0 +1,51 @@
+
+Button Styles
+bootstrap4 provides different styles of buttons:
+.btn
+.btn btn-primary
+.btn btn-secondary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-dark
+.btn-light
+.btn-link
+
+the button classes can be used on <a>, <button>, or <input> elements
+
+button outline
+bootstrap4 provides eight outline/bordered buttons:
+
+.btn-outline-primary
+.btn-outline-secondary
+.btn-outline-success
+.btn-outline-info
+.btn-outline-warning
+.btn-outline-danger
+.btn-outline-dark
+.btn-outline-light
+
+button sizes 
+use the .btn-lg class for large buttons or .btn-sm class for small
+buttons:
+
+block level buttons
+add class .btn-block to create a block level button that spans the
+entire width of the parent element.
+.btn-block
+
+active/disabled buttons
+
+a button can be set to an active or a disabled state:
+
+the class .active makes a button active, and the
+disabled attribute make a button uclickable.
+Note: that <a> elements do not support the disabled attribue and
+must therefore use the .disabled class to makeit disabled.
+.btn-primary active
+
+spinner button
+you can also add "spinners" to a button.
+.spinner-border
+.spinner-grow
